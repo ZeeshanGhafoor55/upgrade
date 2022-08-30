@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+/*......Header section....*/
+header{
+    width: 100%;
+    background: linear-gradient(to right, #89216B, #DA4453);
+}
+nav h1{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: normal;
+    margin-top: 12px;
+    color: #fff;
+    font-size: 34px;
+}
+ul li{
+    padding: 10px 5px;
+    margin-right: 20px;
+}
+ul li:last-child{
+    margin-right: 0;
+}
+ul li a.nav-link{
+    padding: 10px 0;
+    color: #ffffff9c;
+    line-height: 1;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-bottom: 2px solid transparent;
+}
+ul li a.nav-link:hover,.navbar-nav .nav-item .nav-link.active{
+    color: #fff;
+    padding: 10px 0 15px 0;
+    border-bottom: 2px solid #fff;
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: #fff;
+    padding: 10px 0 15px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.hero{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.hero .row h2{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.hero .row h2 span{
+    font-weight: 900;
+    margin-right: 80px;
+}
+.hero .row p a{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    padding: 10px 25px;
+    transition: 0.5s;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;; 
+}
+.hero .row p a:hover{
+    background-color: #1f09ec;;
+}
+.hero .row .box{
+    float: left;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    bottom: 97px;
+    background: #fff;
+    border-radius: 124% 120% 0% 100%;
+    top: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    border: 7px solid #e6629870;
+    border-right: 0;
+    border-left-width: 25px;
+}
+.hero .row .box img{
+    width: 72%;
+    margin-top: 93px;
+    margin-left: 83px;
+    
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
